@@ -12,6 +12,14 @@ body{
     padding: 10px 45px;
     color: white;
 }
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: red;
+    padding: 10px 45px;
+    color: red;
+}
+
 
 /*  navbar  */
 .nav-item{
@@ -19,6 +27,15 @@ body{
     margin-left: 5px;
     margin-right: 5px;
 
+}
+
+.scroll-nav-active{
+    background-color: white;
+    border-bottom: 2px solid red;
+}
+
+.text-nav-active{
+    color: black;
 }
 /*  hero  */
 #hero{

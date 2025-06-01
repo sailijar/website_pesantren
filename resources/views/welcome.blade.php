@@ -53,6 +53,9 @@
         </nav>
         {{-- NAVBAR --}}
 
+
+        {{-- HERO --}}
+
         <section id="hero">
             <div class="container text-center text-white">
                 <div class="hero-title">
@@ -101,9 +104,82 @@
             </div>
         </section>
 
+        {{-- HERO --}}
+
+        {{-- BERITA --}}
+
+        <section id="berita">
+            <div class="container py-5">
+
+                <div class="header-berita text-center">
+                    <h2 class="fw-bold">Berita Kegiatan Pondok Pesantren</h2>
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-lg-4">
+                        <div class="card-border-0">
+                            <img src="{{ asset('assets/images/il-berita-01.png') }}" class="img-fluid mb-3" alt="">
+                            <div class="konten-berita">
+                                <p class="mb-3 text-secondary" >21/04/2025</p>
+                                <h4 class="fw-bold mb-3">Pengajian Bulanan Pesantren Al Hijrrah</h4>
+                                <p class="text-secondary">#pesantrenmodern</p>
+                                <a href="" class="text-decoration-none text-danger">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border-0">
+                            <img src="{{ asset('assets/images/il-berita-01.png') }}" class="img-fluid mb-3" alt="">
+                            <div class="konten-berita">
+                                <p class="mb-3 text-secondary" >21/04/2025</p>
+                                <h4 class="fw-bold mb-3">Pengajian Bulanan Pesantren Al Hijrrah</h4>
+                                <p class="text-secondary">#pesantrenmodern</p>
+                                <a href="" class="text-decoration-none text-danger">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border-0">
+                            <img src="{{ asset('assets/images/il-berita-01.png') }}" class="img-fluid mb-3" alt="">
+                            <div class="konten-berita">
+                                <p class="mb-3 text-secondary" >21/04/2025</p>
+                                <h4 class="fw-bold mb-3">Pengajian Bulanan Pesantren Al Hijrrah</h4>
+                                <p class="text-secondary">#pesantrenmodern</p>
+                                <a href="" class="text-decoration-none text-danger">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="foother-berita text-center">
+                    <a href="" class="btn btn-outline-danger"> Berita Lainnya</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+         {{-- BERITA --}}
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity=
             "sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
+        </script>
+
+        <script>
+            const navbar = document.querySelector(".fixed-top");
+            window.onscroll = () => {
+                if (window.scrollY > 100) {
+                    navbar.classList.add("scroll-nav-active");
+                    navbar.classList.add("text-nav-active");
+                    navbar.classList.remove("navbar-dark");
+                }else {
+                    navbar.classList.remove("scroll-nav-active");
+                    navbar.classList.add("navbar-dark");
+                }
+            };
         </script>
     </body>
 </html>
