@@ -55,7 +55,6 @@
 
 
         {{-- HERO --}}
-
         <section id="hero">
             <div class="container text-center text-white">
                 <div class="hero-title">
@@ -103,11 +102,9 @@
                 </div>
             </div>
         </section>
-
         {{-- HERO --}}
 
         {{-- BERITA --}}
-
         <section id="berita">
             <div class="container py-5">
 
@@ -157,11 +154,29 @@
             </div>
         </section>
 
-
-
-
-
-         {{-- BERITA --}}
+         {{-- JOIN --}}
+        <section id="join" class="py-5">
+            <diV class="container py-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="stripe me-2"></div>
+                            <h5>Daftar Santri</h5>
+                        </div>
+                        <h1 class="fw-bold mb-2">Gabung bersama kami, mewujudkan generasi rabani</h1>
+                        <p class="mb-3">
+                            Pesantren Al Hijrah merupakan pesantren terbaik di Jawa Barat, dengan
+                            meluluskan santri dan menjadi ustadz terkemuka berdakwah di pelosok nusantara
+                        </p>
+                        <buuton class="btn btn-outline-danger">Register</buuton>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="{{ asset('assets/images/il-join.jpeg') }} " class="img-fluid" alt="">
+                    </div>
+                </div>
+            </diV>
+        </section>
+         {{-- JOIN --}}
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity=

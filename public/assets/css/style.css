@@ -56,3 +56,11 @@ body{
     font-size: 65px;
     font-weight: 600;
 }
+
+
+/*  join  */
+.stripe{
+    height: 5px;
+    width: 40px;
+    background-color: red;
+}
