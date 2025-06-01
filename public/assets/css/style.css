@@ -64,3 +64,25 @@ body{
     width: 40px;
     background-color: red;
 }
+
+/*  video  */
+#video{
+    background-image: url("../../assets/images/il-bg-video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.video-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center; /* Menengahkan horizontal */
+  width: 100%;
+}

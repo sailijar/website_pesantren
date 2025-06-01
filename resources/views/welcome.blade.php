@@ -153,6 +153,7 @@
                 </div>
             </div>
         </section>
+        {{-- BERITA --}}
 
          {{-- JOIN --}}
         <section id="join" class="py-5">
@@ -177,6 +178,42 @@
             </diV>
         </section>
          {{-- JOIN --}}
+
+         {{-- VIDEO --}}
+        <section id="video" class="py-5">
+            <div class="container py-5">
+                <div class="text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1lGyuvp5f1E?si=AJsXmKIN26IUEsq8"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+         </section>
+         {{-- VIDEO --}}
+
+         {{-- VIDEO kegiatan pesantren --}}
+        <section id="video_youtube" class="py-5">
+            <div class="container py-5">
+                <div class="header-berita text-center">
+                    <h2 class="fw-bold">Video Kegiatan Pondok Pesantren</h2>
+                </div>
+
+                <div class="video-wrapper py-5">
+                    <div class="video-container">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/1lGyuvp5f1E?si=AJsXmKIN26IUEsq8" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/1lGyuvp5f1E?si=AJsXmKIN26IUEsq8" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/1lGyuvp5f1E?si=AJsXmKIN26IUEsq8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="foother-berita text-center">
+                    <a href="" class="btn btn-outline-danger"> Video Lainnya</a>
+                </div>
+            </div>
+        </section>
+
+
+
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity=
