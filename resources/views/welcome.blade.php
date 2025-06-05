@@ -211,7 +211,49 @@
                 </div>
             </div>
         </section>
+        {{-- VIDEO kegiatan pesantren --}}
 
+        {{-- FOTO KEGIATAN --}}
+        <section id="foto" class="section-foto parallax">
+            <div class="container">
+                <div class="d-flex justify-content-between algin-items-center mb-5">
+                    <div class="d-flex align-items-center">
+                        <div class="stripe-putih m-2"></div>
+                        <h5 class="fw-bold text-white">Foto Kegiatan</h5>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-outline-white">Foto Lainya</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="{{ asset("assets/images/il-bg-foto1.jpeg") }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="{{ asset("assets/images/il-bg-foto2.jpeg") }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="{{ asset("assets/images/il-join.jpeg") }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="{{ asset("assets/images/il-bg-foto4.jpeg") }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- FOTO KEGIATAN --}}
+
+        {{-- FASILITAS --}}
+        <section id="fasilitas" class="py-5">
+            <div class="container py-5">
+                <div class="text-center">
+                    <h3 class="fw-bold">Fasilitas Pesantren</h3>
+                </div>
+                <img src="{{ asset("assets/images/fasilitas.svg") }}" class="img-fluid py-5" alt="">
+            </div>
+        </section>
+
+        {{-- FASILITAS --}}
 
 
 

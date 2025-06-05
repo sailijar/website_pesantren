@@ -19,6 +19,13 @@ body{
     padding: 10px 45px;
     color: red;
 }
+.btn-outline-white{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 45px;
+    color: white;
+}
 
 
 /*  navbar  */
@@ -75,14 +82,39 @@ body{
 }
 
 .video-container {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  padding: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
 }
 
 .video-wrapper {
-  display: flex;
-  justify-content: center; /* Menengahkan horizontal */
-  width: 100%;
+    display: flex;
+    justify-content: center; /* Menengahkan horizontal */
+    width: 100%;
+}
+
+/*  foto  */
+/*  paralax bacground  */
+
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax{
+    background-image: url("../../assets/images/il-bg-poto.jpeg");
+}
+
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: white;
 }
