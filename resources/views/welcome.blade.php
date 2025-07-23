@@ -249,9 +249,13 @@
                 <div class="text-center">
                     <h3 class="fw-bold">Fasilitas Pesantren</h3>
                 </div>
-                <img src="{{ asset("assets/images/fasilitas.svg") }}" class="img-fluid py-5" alt="">
+                <img src="{{ asset("assets/images/fasilitas.svg") }}" class="img-fluid" alt="">
             </div>
         </section>
+
+        <div class="foother-berita text-center">
+                    <a href="" class="btn btn-outline-danger"> Fasilitas Lainnya</a>
+                </div>
 
         {{-- FASILITAS --}}
 
